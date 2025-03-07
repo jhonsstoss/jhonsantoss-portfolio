@@ -17,7 +17,7 @@
 ## 📥 Instalação  
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/jhonsstoss/jhonsantoss-portfolio.git
 cd port-jhon
 npm install
 npm run dev
