@@ -21,7 +21,7 @@ export const Projects = () => {
               Scalable cloud infrasctructure management with real-time monitoring and automated scaling.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["Vite", "Node.js", "JavaScript", "React", "TailWindCSS"].map((tech, key) => (
                 <span 
                   key={key}
                   className="bg-blue-500/10 text-blue-500 
@@ -34,7 +34,9 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a 
-                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                href="https://drawgen-ai-front.onrender.com" 
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                 {""}View Project →{""}
               </a>
@@ -60,7 +62,7 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a 
-                href="#" 
+                href="https://drawgen-ai-front.onrender.com/" 
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                 {""}View Project →{""}
               </a>
