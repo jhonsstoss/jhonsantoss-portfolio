@@ -2,7 +2,7 @@
 
 🚀 **Port-Jhon** é um portfólio pessoal desenvolvido para apresentar projetos e habilidades.  
 
-🔗 **Acesse o portfólio:** [Port-Jhon](https://jhonsstoss.github.io/jhonsantoss-portfolio/)  
+🔗 **Acesse o portfólio:** [Port-Jhon](https://jhonsantoss-portfolio.vercel.app/)
 
 ---
 
