@@ -21,7 +21,7 @@ export const Projects = () => {
               A SaaS platform for AI-powered image generation, allowing users to create high-quality visuals effortlessly. It features a complete authentication system with login, registration, and payment integration, ensuring a seamless and secure user experience.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Vite", "Node.js", "JWT Auth", "Axios", "Tailwind CSS", "MongoDB", "API'", "Motion"].map((tech, key) => (
+              {["React", "Vite", "Node.js", "JWT Auth", "Axios", "Tailwind CSS", "MongoDB", "API"].map((tech, key) => (
                 <span 
                   key={key}
                   className="bg-blue-500/10 text-blue-500 
@@ -44,12 +44,12 @@ export const Projects = () => {
           </div>
           
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
-            <h3 className="text-xl font-bold mb-2">Messenger</h3>
+            <h3 className="text-xl font-bold mb-2">Youtube Clone</h3>
             <p className="text-gray-400 mb-4">
-              Scalable cloud infrasctructure management with real-time monitoring and automated scaling.
+            A web platform inspired by YouTube, allowing users to watch, search, and interact with videos. The project features a secure authentication system and database integration for content management.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["React", "Vite", "Typescript", "Axios", "Moment.js","Node.js","JWT Auth", "MongoDB", "MySQL"].map((tech, key) => (
                 <span 
                   key={key}
                   className="bg-blue-500/10 text-blue-500 
@@ -64,7 +64,7 @@ export const Projects = () => {
               <a 
                 target="_blank" 
                 rel="noopener noreferrer"
-                href="https://drawgen-ai-front.onrender.com/" 
+                href="https://yt-frontend-yo5r.onrender.com/" 
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                 {""}View Project →{""}
               </a>
@@ -156,12 +156,12 @@ export const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)]">
-            <h3 className="text-xl font-bold mb-2">Rick and Morty Characters</h3>
+            <h3 className="text-xl font-bold mb-2">Star Wars Characters</h3>
             <p className="text-gray-400 mb-4">
-              A web application that allows users to explore characters from the Rick and Morty universe. Using the official API, the site dynamically fetches and displays detailed information about each character, including their status, species, and origin, in a simple and engaging interface.
+            A web platform that brings the Star Wars universe to life, allowing users to explore character images and details using an external API. The project features a simple and intuitive UI for an immersive experience.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["HTML", "CSS", "JavaScript", "REST API"].map((tech, key) => (
+              {["JavaScript", "HTML", "CSS", "Star Wars API"].map((tech, key) => (
                 <span 
                   key={key}
                   className="bg-blue-500/10 text-blue-500 
@@ -176,14 +176,22 @@ export const Projects = () => {
               <a 
                 target="_blank" 
                 rel="noopener noreferrer"
-                href="https://rick-morty-characters-beta.vercel.app/" 
+                href="https://star-wars-characters-rho.vercel.app/" 
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                 {""}View Project →{""}
               </a>
             </div>
           </div>
-
         </div>
+          <div className="mt-12 flex justify-center items-center">
+              <a 
+                target="_blank" 
+                rel="noopener noreferrer"
+                href="https://github.com/jhonsstoss" 
+                className="text-[20px] font-semibold text-blue-400 hover:text-blue-300 transition-colors my-4">
+                {""}Discover more of my projects on GitHub! 🔗{""}
+              </a>
+            </div>
       </div>
       </RevealOnScroll>
     </section>
